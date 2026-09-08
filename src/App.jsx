@@ -38,7 +38,7 @@ const LayoutWrapper = ({ children, currentPageName }) =>
 
 export default function App() {
   return (
-    <Router basename={import.meta.env.VITE_BASE || "/millennium"}>
+    <Router basename={import.meta.env.VITE_BASE || "/"}>
       <ScrollToTop />
       <Routes>
         <Route
